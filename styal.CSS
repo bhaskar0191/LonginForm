@@ -1,0 +1,79 @@
+
+body{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(158, 191, 221);
+    align-items: center;
+}
+.login-container{
+    background-color: hwb(0 58% 20%);
+    width: 400px;
+    display: flex;
+    text-align: center;
+    border: 2px solid  rgb(116, 37, 195);
+    border-radius: 10px;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2{
+    color: rgb(255, 255, 255);
+    margin-top: 35px;
+
+}
+
+.label{
+    color: rgb(239, 240, 235);
+}
+input{
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.form-control{
+    height: 60px;
+    color: rgb(41, 19, 19);
+    text-align: start;
+    margin-bottom: 10px;
+}
+#loginform{
+    margin-top: 20px;
+    padding: 20px;
+}
+.btn{
+    width: 120px;
+    height: 35px;
+    border: 2px solid white;
+    background-color: black;
+    color: rgb(209, 205, 199);
+    border-radius: 10px;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
+.btn:hover{
+    color: black;
+    background-color: transparent;
+}
+#loginform .image {
+    margin-left: 0px;
+    height: 20px;
+    width: 20px;
+
+}
+
+.error-massage{
+    color: brown;
+    font-size: 20px;
+}
+    
+#error_massage{
+    color: brown;
+    font-size: 20px;
+}

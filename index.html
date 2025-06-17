@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styal.CSS">
+    <script src="script.js"></script>
+</head>
+<body>
+      <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginform">
+          <div class="form-control">
+            <label class="label" for="username">userName</label>
+            <div class="form-icon">
+            <input type="text" id="username" placeholder="userName" required/>
+            <img class="image" src="./image/person_19dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"/>
+            </div>
+            <p id="userErrMsg" class="error-massage"></p>
+          </div>
+          <div class="form-control">
+            <label class="label" for="password">PassWord</label>
+             <div class="form-icon">
+            <input type="passeord" id="password" placeholder="password" required/>
+            <img class="image" src="./image/lock_19dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"/>
+        </div>
+          <p id="passwordErrMsg" class="error-massage"></p>
+          <div class="form-control">
+            <label class="label" for="email">email</label>
+             <div class="form-icon">
+            <input type="email" id="email" placeholder="email" required/>
+            <img class="image" src="./image/mail_19dp_E3E3E3_FILL0_wght400_GRAD0_opsz20.png"/>
+          </div>
+          <p id="emailErrMsg" class="error-massage"></p>
+        </form>
+        <button id="mitsubBtn"  class="btn" type="submit">Login</button>
+        <p id="error_massage"></p>
+      </div>
+</body>
+</html>
